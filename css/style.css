@@ -1,0 +1,155 @@
+.cardContainer {
+  border: 1px solid;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 3rem;
+  background-color: #efa94a; }
+  .cardContainer img {
+    width: 200px;
+    height: 200px; }
+  .cardContainer p {
+    font-family: "Oleo Script Swash Caps", cursive; }
+
+.textContainer {
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #da1a66;
+  font-family: "Oleo Script Swash Caps", cursive; }
+
+.gameContainer {
+  border: 1px solid;
+  align-items: center;
+  height: 25.2rem;
+  width: 40rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #efa94a; }
+  .gameContainer img {
+    width: 300px;
+    height: 300px; }
+  .gameContainer p {
+    font-family: "Oleo Script Swash Caps", cursive; }
+
+.fanContainer {
+  border: 1px solid;
+  border-radius: 15rem;
+  align-items: center;
+  height: 25.2rem;
+  width: 40rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #efa94a; }
+  .fanContainer img {
+    width: 300px;
+    height: 300px;
+    border-radius: 12rem; }
+  .fanContainer p {
+    font-family: "Oleo Script Swash Caps", cursive; }
+
+* {
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 0px; }
+
+/* Header inicio */
+.headerContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffa6c9;
+  padding: 20px; }
+  .headerContainer ul li {
+    list-style: none;
+    display: inline-block; }
+  .headerContainer a {
+    font-family: "Oleo Script Swash Caps", cursive;
+    text-decoration: none;
+    color: #da1a66;
+    padding: 20px;
+    margin: 10px;
+    border: solid 1px;
+    border-radius: 100px; }
+  .headerContainer .logoContainer {
+    font-family: "Oleo Script Swash Caps", cursive;
+    color: #da1a66; }
+  .headerContainer .inicio:hover {
+    background: url(../images/inicio.jpg);
+    background-repeat: none;
+    background-size: cover; }
+  .headerContainer .Personajes:hover {
+    background: url(../images/personajes.jpg);
+    background-repeat: none;
+    background-size: cover; }
+  .headerContainer .Peliculas:hover {
+    background: url(../images/pelicula.png);
+    background-repeat: none;
+    background-size: cover; }
+  .headerContainer .Canciones:hover {
+    background: url(../images/musc.jpg);
+    background-repeat: none;
+    background-size: cover; }
+  .headerContainer .Fanarts:hover {
+    background: url(../images/fanart.jpg);
+    background-repeat: none;
+    background-size: cover; }
+    .headerContainer .Fanarts:hover .logoCont {
+      color: #da1a66; }
+
+/* Header Final */
+/* HeroIMG inicio */
+.heroImage {
+  height: 92vh;
+  background-image: url("../images/heroimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .heroImage h2 {
+    font-size: 2.5rem;
+    font-family: "Oleo Script Swash Caps", cursive;
+    color: #da1a66;
+    background: rgba(240, 16, 184, 0.205);
+    padding: 0.7rem;
+    width: 100%;
+    text-align: center; }
+
+/* HeroImg Final */
+/* Footer inicio */
+.footerContainer h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffa6c9;
+  color: #da1a66;
+  padding: 30px; }
+
+/* Footer final */
+/* Inicio MainContainer */
+.mainContainer {
+  background-image: url("../images/heroimg.jpg");
+  height: 111.5vh; }
+
+.secContainer {
+  padding: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 1px solid;
+  height: 98%; }
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85%; }

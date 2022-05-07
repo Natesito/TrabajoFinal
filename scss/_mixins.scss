@@ -1,0 +1,82 @@
+@mixin boxItem {
+    border: 1px solid;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 3rem;
+    background-color: $card;
+    img {
+        width: 200px;
+        height: 200px;
+    }
+    p {
+        font-family: $kirbyfont;
+    }
+}
+
+@mixin textItem {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: $kirbyosc;
+    font-family: $kirbyfont;
+}
+
+@mixin gameCard {
+    border: 1px solid;
+    align-items: center;
+    height: 25.2rem;
+    width: 40rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: $card;
+    img {
+        width: 300px;
+        height: 300px;
+    }
+    p {
+        font-family: $kirbyfont;
+    }
+}
+
+@mixin fanCard {
+    border: 1px solid;
+    border-radius: 15rem;
+    align-items: center;
+    height: 25.2rem;
+    width: 40rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: $card;
+    img {
+        width: 300px;
+        height: 300px;
+        border-radius: 12rem;
+    }
+    p {
+        font-family: $kirbyfont;
+    }
+}
+
+.cardContainer {
+    @include boxItem;
+}
+
+.textContainer {
+    @include textItem()
+}
+
+.gameContainer {
+    @include gameCard() 
+}
+
+.fanContainer {
+    @include fanCard()
+}

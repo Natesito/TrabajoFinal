@@ -1,0 +1,133 @@
+@import "variantes";
+@import "mixins";   
+
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+/* Header inicio */
+
+.headerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $kirby;
+    padding: 20px;
+    ul li {
+        list-style: none;
+        display: inline-block;
+    }
+    a {
+        font-family: $kirbyfont;
+        text-decoration: none;
+        color: $kirbyosc;
+        padding: 20px;
+        margin: 10px;
+        border: solid 1px;
+        border-radius: 100px;
+    }
+    .logoContainer {
+        font-family: $kirbyfont;
+        color: $kirbyosc;
+    }
+    .inicio:hover {
+        background: url(../images/inicio.jpg);
+        background-repeat: none;
+        background-size: cover;
+    }
+    .Personajes:hover {
+        background: url(../images/personajes.jpg);
+        background-repeat: none;
+        background-size: cover;
+    }
+    .Peliculas:hover {
+        background: url(../images/pelicula.png);
+        background-repeat: none;
+        background-size: cover;
+    }  
+    .Canciones:hover {
+        background: url(../images/musc.jpg);
+        background-repeat: none;
+        background-size: cover; }
+    .Fanarts:hover {
+        background: url(../images/fanart.jpg);
+        background-repeat: none;
+        background-size: cover;
+        .logoCont {
+            color: $kirbyosc;
+        }    
+    }
+}
+
+/* Header Final */
+
+/* HeroIMG inicio */
+
+.heroImage {
+    height: 92vh;
+    background-image: url("../images/heroimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2 {
+    font-size: 2.5rem;
+    font-family: $kirbyfont;
+    color: $kirbyosc;
+    background: rgba(240, 16, 184, 0.205);
+    padding: 0.7rem;
+    width: 100%;
+    text-align: center;
+    }
+}
+
+/* HeroImg Final */
+
+/* Footer inicio */
+
+.footerContainer{
+    h3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $kirby;
+        color: $kirbyosc;
+        padding: 30px;
+    }
+
+}
+
+/* Footer final */
+
+/* Inicio MainContainer */
+
+.mainContainer {
+    background-image: url("../images/heroimg.jpg");
+    height: 111.5vh;
+    
+}
+
+.secContainer {
+    padding: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    border: 1px solid;
+    height: 98%;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+}
+
+
+
+
+
