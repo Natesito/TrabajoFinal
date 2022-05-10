@@ -1,7 +1,6 @@
 {
-  "name": "tp-final-3",
+  "name": "a",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,5 +12,15 @@
   "dependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Natesito/tp3final.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Natesito/tp3final/issues"
+  },
+  "homepage": "https://github.com/Natesito/tp3final#readme",
+  "description": ""
 }
