@@ -286,7 +286,7 @@
     width: 50rem;
     height: 20rem; } }
 
-@media (max-width: 425px) {
+@media (max-width: 475px) {
   .cardContainer {
     height: 6.1rem;
     width: 6.1rem;
@@ -300,13 +300,13 @@
       font-family: "Oleo Script Swash Caps", cursive;
       display: none; }
   .gameContainer {
-    width: 8rem;
+    width: 7rem;
     height: 15rem; }
     .gameContainer:hover {
       transform: scale(1.1); }
     .gameContainer img {
-      width: 7rem;
-      height: 7rem; }
+      width: 6rem;
+      height: 6rem; }
     .gameContainer p {
       font-size: 0.7rem; }
   .fanContainer {
