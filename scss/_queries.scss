@@ -1,262 +1,474 @@
-@media (max-width: 1440px) {
-    .cardContainer{
-        width: 250px;
-        height: 250px;
-        font-size: 0.8rem;
+@media (max-width: 1600px) {
+    .cardContainer {
+        height: 17.5rem;
+        width: 17.5rem;
         img {
             width: 150px;
             height: 150px;
         }
-        
-    }
-}
-
-@media (max-width: 1024px) {
-    .cardContainer{
-        width: 220px;
-        height: 220px;
-        font-size: 0.7rem;
-        img {
-            width: 120px;
-            height: 120px;
+        &:hover {
+            transform: scale(1.1);
+        }
+        p {
+            font-family: $kirbyfont;
         }
     }
-    .gameContainer {
-        border: 1px solid;
-    align-items: center;
-    height: 15rem;
-    width: 26rem;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: $card;
-    img {
-        width: 150px;
-        height: 150px;
-    }
-    p {
-        font-family: $kirbyfont;
-    }
-    }
-    .yt {
-        width: 60rem;
-    }
-    .fanContainer {
-        border: 1px solid;
-    border-radius: 15rem;
-    align-items: center;
-    height: 18rem;
-    width: 27rem;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: $card;
-    img {
-        width: 220px;
-        height: 220px;
-        border-radius: 12rem;
-    }
-    p {
-        font-family: $kirbyfont;
-    }
-    }
-}
-
-@media (max-width: 1024px) {
-    .cardContainer{
-        width: 220px;
-        height: 220px;
-        font-size: 0.7rem;
-        img {
-            width: 120px;
-            height: 120px;
+    .gameContainer{
+        width: 22rem;
+        height: 31rem;
+        &:hover {
+            transform: scale(1.1);
         }
     }
-    .gameContainer {
-        border: 1px solid;
-    align-items: center;
-    height: 15rem;
-    width: 26rem;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: $card;
-    img {
-        width: 150px;
-        height: 150px;
-    }
-    p {
-        font-family: $kirbyfont;
-    }
-    }
-    .yt {
-        width: 60rem;
-    }
+
     .fanContainer {
-        border: 1px solid;
-    border-radius: 15rem;
-    align-items: center;
-    height: 18rem;
-    width: 27rem;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: $card;
-    img {
-        width: 220px;
-        height: 220px;
-        border-radius: 12rem;
-    }
-    p {
-        font-family: $kirbyfont;
-    }
+        width: 35rem;
+        height: 20rem;
+        img {
+            width: 15rem;
+            height: 15rem;
+        }
     }
 }
 
-@media (max-height: 1024px) {
-    .cardContainer{
-        width: 16rem;
+@media (max-width: 1440px) {
+    .cardContainer {
         height: 15rem;
-        font-size: 0.7rem;
-        img {
-            width: 120px;
-            height: 120px;
-        }
-    }
-}
-
-@media (max-height: 768px) {
-    
-    .yt {
-        height: 35rem;
-    }
-
-    .fanContainer {
-        height: 15rem;
-    }
-}
-
-@media (max-width: 768px) {
-    
-    .cardContainer{
-        width: 200px;
-        height: 200px;
-        font-size: 0.65rem;
+        width: 15rem;
         img {
             width: 110px;
             height: 110px;
         }
+        &:hover {
+            transform: scale(1.1);
+        }
+        p {
+            font-family: $kirbyfont;
+        }
     }
-    .gameContainer {
-        border: 1px solid;
-    align-items: center;
-    height: 12rem;
-    width: 40rem;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: $card;
-    img {
-        width: 190px;
-        height: 190px;
+    .gameContainer{
+        width: 20rem;
+        height: 29rem;
+        &:hover {
+            transform: scale(1.1);
+        }
     }
-    p {
-        font-family: $kirbyfont;
-        font-size: 1rem;
-    }
-    }
-    .yt {
-        width: 40rem;
-    }
+
     .fanContainer {
-        border: 1px solid;
-    border-radius: 15rem;
-    align-items: center;
-    height: 12rem;
-    width: 50rem;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: $card;
-    img {
-        width: 190px;
-        height: 190px;
-        border-radius: 12rem;
-    }
-    p {
-        font-family: $kirbyfont;
-    }
+        width: 34rem;
+        height: 19rem;
+        img {
+            width: 15rem;
+            height: 15rem;
+        }
     }
 }
 
+@media (max-width: 1366px) {
+    .cardContainer {
+        height: 14rem;
+        width: 14rem;
+        img {
+            width: 100px;
+            height: 100px;
+        }
+        &:hover {
+            transform: scale(1.1);
+        }
+        p {
+            font-family: $kirbyfont;
+            font-size: 0.8rem;
+        }
+    }
+    .gameContainer{
+        width: 18rem;
+        height: 27rem;
+        &:hover {
+            transform: scale(1.1);
+        }
+        img {
+            width: 15rem;
+            height: 15rem;
+        }
+    }
+
+    .fanContainer {
+        width: 30rem;
+        height: 15rem;
+        img {
+            width: 13rem;
+            height: 13rem;
+        }
+    }
+    .yt {
+        width: 70rem;
+        height: 35rem;
+    }
+}
+
+@media (max-width: 1280px) {
+    .cardContainer {
+        height: 14rem;
+        width: 14rem;
+        img {
+            width: 100px;
+            height: 100px;
+        }
+        &:hover {
+            transform: scale(1.1);
+        }
+        p {
+            font-family: $kirbyfont;
+            font-size: 0.8rem;
+        }
+    }
+    .gameContainer{
+        width: 15.5rem;
+        height: 24rem;
+        &:hover {
+            transform: scale(1.1);
+        }
+        img {
+            width: 15rem;
+            height: 15rem;
+        }
+    }
+
+    .fanContainer {
+        width: 29rem;
+        height: 14rem;
+        img {
+            width: 12rem;
+            height: 12rem;
+        }
+    }
+    .yt {
+        width: 70rem;
+        height: 34rem;
+    }
+}
+
+@media (max-width: 1176px) {
+    .cardContainer {
+        height: 12rem;
+        width: 12rem;
+        img {
+            width: 80px;
+            height: 80px;
+        }
+        &:hover {
+            transform: scale(1.1);
+        }
+        p {
+            font-family: $kirbyfont;
+            font-size: 0.8rem;
+        }
+    }
+    .gameContainer{
+        width: 15.5rem;
+        height: 24rem;
+        &:hover {
+            transform: scale(1.1);
+        }
+        img {
+            width: 15rem;
+           height: 15rem;
+        }
+    }
+
+    .fanContainer {
+        width: 29rem;
+        height: 14rem;
+        img {
+            width: 12rem;
+            height: 12rem;
+        }
+    }
+    .yt {
+        width: 70rem;
+        height: 30rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .cardContainer {
+        height: 10rem;
+        width: 10rem;
+        border-radius: 10px;
+        img {
+            width: 75px;
+            height: 75px;
+        }
+        &:hover {
+            transform: scale(1.1);
+        }
+        p {
+            font-family: $kirbyfont;
+            font-size: 0.7rem;
+        }
+    }
+    .gameContainer{
+        width: 13rem;
+        height: 22rem;
+        &:hover {
+            transform: scale(1.1);
+        }
+        img {
+            width: 12rem;
+            height: 12rem;
+        }
+    }
+
+    .fanContainer {
+        width: 26rem;
+        height: 12rem;
+        img {
+            width: 10rem;
+            height: 10rem;
+        }
+    }
+    .yt {
+        width: 60rem;
+        height: 30rem;
+    }
+} 
+
+@media (max-width: 800px) {
+    .cardContainer {
+        height: 7rem;
+        width: 7rem;
+        border-radius: 10px;
+        img {
+            width: 90px;
+            height: 90px;
+        }
+        &:hover {
+            transform: scale(1.1);
+        }
+        p {
+            font-family: $kirbyfont;
+            display: none;
+        }
+    }
+    .gameContainer{
+        width: 10rem;
+        height: 19rem;
+        &:hover {
+            transform: scale(1.1);
+        }
+        img {
+            width: 9rem;
+            height: 9rem;
+        }
+    }
+
+    .fanContainer {
+        width: 19rem;
+        height: 10rem;
+        img {
+            width: 7rem;
+            height: 7rem;
+        }
+    }
+    .yt {
+        width: 50rem;
+        height: 20rem;
+    }
+} 
+
+@media (max-width: 768px) {
+    .cardContainer {
+        height: 8rem;
+        width: 9rem;
+        border-radius: 10px;
+        img {
+            width: 80px;
+            height: 80px;
+        }
+        &:hover {
+            transform: scale(1.1);
+        }
+        p {
+            font-family: $kirbyfont;
+            display: none;
+        }
+    }
+    .gameContainer{
+        width: 10rem;
+        height: 16rem;
+        &:hover {
+            transform: scale(1.1);
+        }
+        img {
+            width: 7rem;
+            height: 7rem;
+        }
+        p {
+            font-size: 0.7rem;
+        }
+    }
+
+    .fanContainer {
+        width: 19rem;
+        height: 10rem;
+        img {
+            width: 7rem;
+            height: 7rem;
+        }
+    }
+    .yt {
+        width: 50rem;
+        height: 20rem;
+    }
+} 
+
 @media (max-width: 425px) {
-    
-    .headerContainer {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: $kirby;
-    padding: 20px;
-    flex-wrap: wrap;
-    }
-
-    .headerContainer ul li a {
-        border: solid 0px;
-        display: block;
-
-    }
-
-    .cardContainer{
-        width: 6.25rem;
-        height: 6.25rem;
-        font-size: 0.3rem;
+    .cardContainer {
+        height: 6.1rem;
+        width: 6.1rem;
+        border-radius: 10px;
         img {
             width: 50px;
             height: 50px;
         }
+        &:hover {
+            transform: scale(1.1);
+        }
+        p {
+            font-family: $kirbyfont;
+            display: none;
+        }
     }
-    .gameContainer {
-        border: 1px solid;
-    align-items: center;
-    height: 12rem;
-    width: 50rem;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: $card;
-    img {
-        width: 100px;
-        height: 100px;
+    .gameContainer{
+        width: 8rem;
+        height: 15rem;
+        &:hover {
+            transform: scale(1.1);
+        }
+        img {
+            width: 7rem;
+            height: 7rem;
+        }
+        p {
+            font-size: 0.7rem;
+        }
     }
-    p {
-        font-family: $kirbyfont;
-        font-size: 0.65rem;
-    }
+
+    .fanContainer {
+        width: 19rem;
+        height: 5rem;
+        img {
+            width: 6rem;
+            height: 4rem;
+        }
+        p {
+            font-size: 0.9rem;
+        }
     }
     .yt {
-        width: 60rem;
+        width: 50rem;
+        height: 20rem;
     }
-    .fanContainer {
-        border: 1px solid;
-    border-radius: 15rem;
-    align-items: center;
-    height: 10rem;
-    width: 50rem;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: $card;
-    img {
-        width: 100px;
-        height: 100px;
-        border-radius: 12rem;
-    }
-    p {
-        font-family: $kirbyfont;
-    }
-    }
-}
+} 
 
+@media (max-width: 375px) {
+    .cardContainer {
+        height: 5.5rem;
+        width: 5.5rem;
+        border-radius: 10px;
+        img {
+            width: 45px;
+            height: 45px;
+        }
+        &:hover {
+            transform: scale(1.1);
+        }
+        p {
+            font-family: $kirbyfont;
+            display: none;
+        }
+    }
+    .gameContainer{
+        width: 7rem;
+        height: 10rem;
+        &:hover {
+            transform: scale(1.1);
+        }
+        img {
+            width: 5rem;
+            height: 5rem;
+        }
+        p {
+            font-size: 0.6rem;
+        }
+    }
+
+    .fanContainer {
+        width: 7rem;
+        height: 10rem;
+        border-radius: 0px;
+        img {
+            width: 6rem;
+            height: 6rem;
+        }
+        
+    }
+    .yt {
+        width: 50rem;
+        height: 20rem;
+    }
+} 
+
+@media (max-width: 320px) {
+    .cardContainer {
+        height: 3.8rem;
+        width: 3.8rem;
+        border-radius: 10px;
+        img {
+            width: 45px;
+            height: 45px;
+        }
+        &:hover {
+            transform: scale(1.1);
+        }
+        p {
+            font-family: $kirbyfont;
+            display: none;
+        }
+    }
+    .gameContainer{
+        width: 5rem;
+        height: 10rem;
+        &:hover {
+            transform: scale(1.1);
+        }
+        img {
+            width: 4rem;
+            height: 4rem;
+        }
+        p {
+            font-size: 0.6rem;
+        }
+    }
+
+    .fanContainer {
+        width: 5rem;
+        height: 10rem;
+        border-radius: 0px;
+        img {
+            width: 4rem;
+            height: 4rem;
+        }
+        p {
+            font-size: 0.6rem;
+        }
+        
+    }
+    .yt {
+        width: 50rem;
+        height: 20rem;
+    }
+} 
 
 
 
